@@ -32,24 +32,27 @@ body{
 /********************************************
 ***********************SEARCH
 ********************************************/
-
-.search-box{
-    height: 275px;
-    background-color: #161616;
-    background-image: repeating-linear-gradient(135deg, #333, #333 25%, transparent 25%, transparent 50%), repeating-linear-gradient(-135deg, #333, #333 25%, transparent 25%, transparent 50%);
-    background-size: 12px 12px;
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{ 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
 }
 
-.search-box .search-btn{
-    background-color: #333;
+.cover-div{
+    height: 300px;
 }
 
-.search-box .searchbar{
-    padding: 100px 0;
-}
-
-.search{
-    max-width: 850px;
+.cover-img{
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 /********************************************
