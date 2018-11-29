@@ -97,8 +97,18 @@ body{
 .about-me div.card-body img{
     width: 140px;
     height: 140px;
-    margin-left: 40px;
+    margin-left: 63px;
+
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
 }
+
+/*.about-me div.card-body img:hover{
+    opacity: 0.9;
+}*/
 
 .about-me div.card-body p{
     padding: 0px 12px;
